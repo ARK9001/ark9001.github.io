@@ -30,7 +30,7 @@ navbar-links:
     - GitHub Pages: "https://pages.github.com/"
   Author's home: "http://deanattali.com"
   Another link: 
-    - Sublink1: "http://ark9001.github.io"
+    - Sublink1: "testpage"
     - Sublink 2: "http://ark9001.github.io"
     - Sublink 3: "http://ark9001.github.io"
 
