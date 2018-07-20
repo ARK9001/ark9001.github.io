@@ -18,12 +18,10 @@
       <ul class="nav navbar-nav navbar-right">
       {% for link in site.navbar-links %}
         {% if link[1].first %}
-          <li>
-            {% include navbarlink.html link=link %}
-          </li>
           <li class="navlinks-container">
             <a class="navlinks-parent" href="javascript:void(0)">{{ link[0] }}</a>
             <div class="navlinks-children">
+              {% include navbarlink.html link=link %}
               {% for childlink in link[1] %}
                 {% for linkparts in childlink %}
                   {% include navbarlink.html link=linkparts %}
