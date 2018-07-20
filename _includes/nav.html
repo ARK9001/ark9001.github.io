@@ -20,8 +20,8 @@
         {% if link[1].first %}
           <li class="navlinks-container"> <!-- start editing -->
             {% if link[1] %}
-              {% capture before %}{{ include.link[1] | split: "://" | first }}{% endcapture %}
-              {% capture after %}{{ include.link[1] | split: "://" | last }}{% endcapture %}
+              {% capture before %}{{ link[1] | split: "://" | first }}{% endcapture %}
+              {% capture after %}{{ link[1] | split: "://" | last }}{% endcapture %}
               {% assign internal = true %}
               {% if before != after %}
                 {% if before == "http" or before == "https" %}
@@ -30,9 +30,9 @@
               {% endif %}
 
               {% if internal %}
-                {% capture linkurl %}{{ site.baseurl }}/{{ include.link[1] }}{% endcapture %}
+                {% capture linkurl %}{{ site.baseurl }}/{{ link[1] }}{% endcapture %}
               {% else %}
-                {% capture linkurl %}{{ include.link[1] }}{% endcapture %}
+                {% capture linkurl %}{{ link[1] }}{% endcapture %}
               {% endif %}
             {% else %}
               {% capture linkurl %}{% "javascript:void(0)" %}{% endcapture %}
