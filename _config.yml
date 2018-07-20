@@ -24,8 +24,9 @@ description:
 # List of links in the navigation bar
 navbar-links:
   Blog: "http://ark9001.github.io"
+    - Tag Index: "tags"
   About Me: "aboutme"
-  Contact: "contact"
+  #Contact: "contact"
 
   #Resources:
   #  - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
