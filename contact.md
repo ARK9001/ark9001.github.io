@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact
-subtitle: Feel free to contact me
+subtitle: Feel free to contact me [here](email@email) 
 ---
 
-### _email here_
+### <p style="text-align: center;"> _email here_ </p>
