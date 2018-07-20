@@ -17,7 +17,7 @@ baseurl: ""
 title: Aishwarya Rameshkumar
 
 # Short description of your site
-description: Blog
+description:
 
 # --- Navigation bar options --- #
 
@@ -80,22 +80,22 @@ author:
 social-network-links:
   rss: true
 #  email: "someone@example.com"
-#  facebook: daattali
+#  facebook: name
   github: ark9001
-#  twitter: daattali
-#  reddit: yourname
-#  google-plus: +DeanAttali
-#  linkedin: daattali
+#  twitter: name
+#  reddit: name
+#  google-plus: +name
+  linkedin: aishwaryarameshkumar
 #  xing: yourname
-#  stackoverflow: "3943160/daattali"
-#  snapchat: deanat78
-#  instagram: deanat78
-#  youtube: user/deanat78
-#  spotify: yourname
-#  telephone: +14159998888
-#  steam: deanat78
-#  twitch: yourname
-#  yelp: yourname
+#  stackoverflow: "###/name"
+#  snapchat: name
+  instagram: aishcreammm
+#  youtube: user/name
+#  spotify: name
+#  telephone: +1##########
+#  steam: name
+#  twitch: name
+#  yelp: name
 
 # Select which share links to show in posts
 share-links-active:
