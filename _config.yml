@@ -23,7 +23,7 @@ description:
 
 # List of links in the navigation bar
 navbar-links:
-  Blog: "http://ark9001.github.io"
+  Blog:
     - Tag Index: "tags"
   About Me: "aboutme"
   #Contact Infoo: "contact"
