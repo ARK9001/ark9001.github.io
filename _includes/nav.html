@@ -19,7 +19,7 @@
       {% for link in site.navbar-links %}
         {% if link[1].first %}
           <li>
-          {% include navbarlink.html link=linkparts %}
+            {% include navbarlink.html link=linkparts %}
           </li>
           <li class="navlinks-container">
             <a class="navlinks-parent" href="javascript:void(0)">{{ link[0] }}</a>
